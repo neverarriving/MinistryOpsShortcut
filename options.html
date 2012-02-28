@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Basecamp URL</title>
+        <title>Ministry Ops URL</title>
         <style>
             html {
                 background: #eee;
@@ -74,7 +74,7 @@
             var saved = localStorage["saved_url"];
             if(saved == undefined || saved == null || saved == '') {
                 var help = document.getElementById("help");
-                help.innerHTML = "<p>It appears you have not set up your Basecamp URL yet. Please do so by typing it below.</p><p>You can always get back to this page by right clicking the app icon and choosing <strong>Options</strong></p>";
+                help.innerHTML = "<p>It appears you have not set up your Ministry Ops URL yet. Please do so by typing it below.</p><p>You can always get back to this page by right clicking the app icon and choosing <strong>Options</strong></p>";
                 return;
             }
             var text = document.getElementById("url");
@@ -89,9 +89,9 @@
         </div>
         <label for="url">https://
             <input type="text" id="url" name="url" />
-            .basecamphq.com</label>
+            .ministryops.com</label>
         <button onclick="save_options()">
-            Save and go to your Basecamp
+            Save and go to your Ministry Ops Login
         </button>
         <div id="status"></div>
     </body>
