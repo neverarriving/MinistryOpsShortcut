@@ -1,6 +1,6 @@
 {
     "name": "Ministry Ops Login",
-    "description": "This app simply gives you quick access to your Ministry Ops login.",
+    "description": "Quickly login to your MinistryOps.com site from your browser.",
     "version": "1.1",
     "app": {
         "launch": {
